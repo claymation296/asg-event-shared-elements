@@ -1,0 +1,31 @@
+{
+  "name": "@spriteful/asg-event-shared-elements",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spriteful/asg-event-shared-elements.git"
+  },
+  "author": "Spriteful spritefuldev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spriteful/asg-event-shared-elements/issues"
+  },
+  "homepage": "https://github.com/spriteful/asg-event-shared-elements#readme",
+  "dependencies": {
+    "@polymer/iron-icon": "^3.0.1",
+    "@polymer/iron-image": "^3.0.1",
+    "@polymer/paper-card": "^3.0.1",
+    "@polymer/paper-fab": "^3.0.1",
+    "@polymer/polymer": "^3.1.0",
+    "@spriteful/app-header-overlay": "^1.0.0",
+    "@spriteful/app-icons": "^1.0.1",
+    "@spriteful/asg-icons": "^1.0.10",
+    "@spriteful/spriteful-element": "^1.0.4",
+    "@spriteful/utils": "^1.1.6"
+  }
+}
