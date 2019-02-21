@@ -23,8 +23,8 @@
     "@polymer/paper-fab": "^3.0.1",
     "@polymer/polymer": "^3.1.0",
     "@spriteful/app-header-overlay": "^1.0.0",
-    "@spriteful/app-icons": "^1.0.2",
-    "@spriteful/asg-icons": "^1.0.11",
+    "@spriteful/app-icons": "^1.0.3",
+    "@spriteful/asg-icons": "^1.0.12",
     "@spriteful/spriteful-element": "^1.0.4",
     "@spriteful/utils": "^1.2.1"
   }

@@ -209,17 +209,17 @@
   dependencies:
     "@polymer/iron-iconset-svg" "^3.0.1"
 
-"@spriteful/app-icons@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@spriteful/app-icons/-/app-icons-1.0.2.tgz#0b79e2b038aa84347176089a5b44418367655ad0"
-  integrity sha512-XSzzfQWHL2APWMeIsCsxt66QJg4erQ/Y85WLpVSNlIbixzApwf+ACmp5FH9Qo6ulnoHr5atHZ/FjLJ8Qdi2kyA==
+"@spriteful/app-icons@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@spriteful/app-icons/-/app-icons-1.0.3.tgz#285dbc569dcef1704b0ae1362f3c9a58747baea1"
+  integrity sha512-u95ekkB0gfywf3wOZLIVcrXTH0PKbaqGwKbel8v6Rf/sjtH1O2VLnmPf8vTn1Q3zZbhjaDh7wpqVoWmwH93m/g==
   dependencies:
     "@polymer/iron-iconset-svg" "^3.0.1"
 
-"@spriteful/asg-icons@^1.0.11":
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/@spriteful/asg-icons/-/asg-icons-1.0.11.tgz#c0bade85ff9eb614918b3f21c4c7cc778c343814"
-  integrity sha512-/QrOGQDVrTwVyRsCEXrF1oRwoA2y42cDNer52mkN9obX019gQeUD0w3+R9ONhVAZYmBLy2xrnQewk/afBWCkUQ==
+"@spriteful/asg-icons@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@spriteful/asg-icons/-/asg-icons-1.0.12.tgz#d4e697b0febc6c3a6f50ec0744a403773a70103c"
+  integrity sha512-+TjRI8bwC7k8LVpHVdJSdtwbFc54ty+k6UwXVLk7CMcLO5OpwBxi/eQX9+rXM8u5Hum89YpNJWqerhzaGDymjw==
   dependencies:
     "@polymer/iron-iconset-svg" "^3.0.1"
     "@polymer/polymer" "^3.1.0"
