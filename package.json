@@ -18,14 +18,14 @@
   "homepage": "https://github.com/spriteful/asg-event-shared-elements#readme",
   "dependencies": {
     "@polymer/iron-icon": "^3.0.1",
-    "@polymer/iron-image": "^3.0.1",
+    "@polymer/iron-image": "^3.0.2",
     "@polymer/paper-card": "^3.0.1",
     "@polymer/paper-fab": "^3.0.1",
-    "@polymer/polymer": "^3.1.0",
-    "@spriteful/app-header-overlay": "^1.0.0",
-    "@spriteful/app-icons": "^1.0.3",
-    "@spriteful/asg-icons": "^1.0.12",
+    "@polymer/polymer": "^3.3.0",
+    "@spriteful/app-header-overlay": "^1.0.1",
+    "@spriteful/app-icons": "^1.0.6",
+    "@spriteful/asg-icons": "^1.0.14",
     "@spriteful/spriteful-element": "^1.0.4",
-    "@spriteful/utils": "^1.2.1"
+    "@spriteful/utils": "^1.2.4"
   }
 }

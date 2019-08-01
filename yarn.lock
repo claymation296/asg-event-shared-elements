@@ -73,10 +73,17 @@
     "@polymer/iron-meta" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
-"@polymer/iron-image@^3.0.0-pre.26", "@polymer/iron-image@^3.0.1":
+"@polymer/iron-image@^3.0.0-pre.26":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@polymer/iron-image/-/iron-image-3.0.1.tgz#c5456d65733879ab0aaed75fbc26419db79cbe5d"
   integrity sha512-Tp6iB/7YYo6IwmVnxHgctKJXjlE6KcHtja+BvyKq7Du+9JB8XgZ2D+WZTYofagwQJ5Akl4oFis5gtO+LM9Z4dA==
+  dependencies:
+    "@polymer/polymer" "^3.0.0"
+
+"@polymer/iron-image@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-image/-/iron-image-3.0.2.tgz#425ee6269634e024dbea726a91a61724ae4402b6"
+  integrity sha512-VyYtnewGozDb5sUeoLR1OvKzlt5WAL6b8Od7fPpio5oYL+9t061/nTV8+ZMrpMgF2WgB0zqM/3K53o3pbK5v8Q==
   dependencies:
     "@polymer/polymer" "^3.0.0"
 
@@ -181,6 +188,13 @@
   dependencies:
     "@webcomponents/shadycss" "^1.5.2"
 
+"@polymer/polymer@^3.2.0", "@polymer/polymer@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.3.0.tgz#52a0665ac29654728e8f46e8ee178c02c49efdd0"
+  integrity sha512-rij7suomS7DxdBamnwr/Xa0V5hpypf7I9oYKseF2FWz5Xh2a3wJNpVjgJy1adXVCxqIyPhghsrthnfCt7EblsQ==
+  dependencies:
+    "@webcomponents/shadycss" "^1.9.1"
+
 "@spriteful/animation@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@spriteful/animation/-/animation-1.0.5.tgz#c02a392d21a8d7a4180c415d38f05d715d52dce0"
@@ -189,50 +203,43 @@
     "@spriteful/lambda" "^1.3.3"
     "@spriteful/utils" "^1.1.6"
 
-"@spriteful/app-header-overlay@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@spriteful/app-header-overlay/-/app-header-overlay-1.0.0.tgz#b63c3036080cdd173fe063d335a081650ccd1437"
-  integrity sha512-P46vjPZKfNHDaHtvd9X4RGSky9Lhk/YjAJ4tvzVs1nCa+PAbAf5F9epL5xJcYOsfRkNWhI3J5NXcIrJFUL4L3Q==
+"@spriteful/app-header-overlay@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@spriteful/app-header-overlay/-/app-header-overlay-1.0.1.tgz#e2f945a30f4f7e56718d3b3467aefe9b5d94bd09"
+  integrity sha512-uAPysi0hjIrqzx+UGJFEC8WgBIM0AVwNWEqKEF2kld5o548yZ7GVPLgxA2FuHdj7y83BgqXPgeJwJvoMJtNDfg==
   dependencies:
     "@polymer/app-layout" "^3.0.2"
     "@polymer/paper-icon-button" "^3.0.2"
-    "@polymer/polymer" "^3.1.0"
-    "@spriteful/app-icons" "^1.0.0"
+    "@polymer/polymer" "^3.2.0"
+    "@spriteful/app-icons" "^1.0.6"
     "@spriteful/overlay-mixin" "^1.0.0"
     "@spriteful/spriteful-element" "^1.0.4"
-    "@spriteful/utils" "^1.1.6"
+    "@spriteful/utils" "^1.2.4"
 
-"@spriteful/app-icons@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@spriteful/app-icons/-/app-icons-1.0.1.tgz#959a1034edf290e437f07f603d24799efd22d14d"
-  integrity sha512-wkGgCQEaABViOfxnk5rKQwVTB+V5CVRfO8q9Y980SUBPzubd8beGBpGnfKKlCGSLAzQqhVP5nAh2zvyVCVhGvw==
+"@spriteful/app-icons@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@spriteful/app-icons/-/app-icons-1.0.6.tgz#df494886a31f192c3e5e575ebe28b1fa0acc2ea6"
+  integrity sha512-S3+Luky6pAMjYXD+evOhzBXZxeyBW1LtwPdsvP12h/FCTWWRHatfuOSF0D8Lvv45LoKlZ6Nz0OzMTqqf1wT+WQ==
   dependencies:
     "@polymer/iron-iconset-svg" "^3.0.1"
 
-"@spriteful/app-icons@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@spriteful/app-icons/-/app-icons-1.0.3.tgz#285dbc569dcef1704b0ae1362f3c9a58747baea1"
-  integrity sha512-u95ekkB0gfywf3wOZLIVcrXTH0PKbaqGwKbel8v6Rf/sjtH1O2VLnmPf8vTn1Q3zZbhjaDh7wpqVoWmwH93m/g==
+"@spriteful/asg-icons@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@spriteful/asg-icons/-/asg-icons-1.0.14.tgz#4403e1dcde4f1aeacc62af9bdb7482cd407c42d8"
+  integrity sha512-VZRFHWVJPjKrGBjey8L8idIRTGc0bC0O++qIu7jLX8dO3fYRad/K33++LEy3KpjsNEHJ57x1/z8KWVt6D+I5IQ==
   dependencies:
     "@polymer/iron-iconset-svg" "^3.0.1"
-
-"@spriteful/asg-icons@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@spriteful/asg-icons/-/asg-icons-1.0.12.tgz#d4e697b0febc6c3a6f50ec0744a403773a70103c"
-  integrity sha512-+TjRI8bwC7k8LVpHVdJSdtwbFc54ty+k6UwXVLk7CMcLO5OpwBxi/eQX9+rXM8u5Hum89YpNJWqerhzaGDymjw==
-  dependencies:
-    "@polymer/iron-iconset-svg" "^3.0.1"
-    "@polymer/polymer" "^3.1.0"
+    "@polymer/polymer" "^3.2.0"
 
 "@spriteful/lambda@^1.3.3":
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/@spriteful/lambda/-/lambda-1.3.3.tgz#0a0f553c95da4a392a9d97fb1f5daf4544ef1da9"
   integrity sha512-q1wIoJtozKSNaMT4DSxqd6gHv3z6sRlTrx+nUnltHLwYRMIS/zuzaPgktQ0e2PARQnZ2MG8jTDXcOnjvHKYK1A==
 
-"@spriteful/lambda@^1.3.4":
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@spriteful/lambda/-/lambda-1.3.4.tgz#1f2110ee41e39f3b19f1e64b7acc689c7930a783"
-  integrity sha512-+o9/2iq6wA1E4DlUPKUeH9GS7ow3uP/w2bHs4vN8aZlr+e+a3G9sppjl55eIZBCNMQOi9756beGyO0VgU3fcxQ==
+"@spriteful/lambda@^1.3.5":
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@spriteful/lambda/-/lambda-1.3.9.tgz#c9d82ab82e4b9a99897bff5b5e219c3fcca1699d"
+  integrity sha512-14gisc0Ng7u/9TZD8+aX76/uedau9CRpjK47C5XEtZm4tmDR/kvaJ7FS9tl9OP4BAwmqwfULNPFhoEVLRIXOew==
 
 "@spriteful/overlay-mixin@^1.0.0":
   version "1.0.0"
@@ -272,14 +279,19 @@
   dependencies:
     "@spriteful/lambda" "^1.3.3"
 
-"@spriteful/utils@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@spriteful/utils/-/utils-1.2.1.tgz#2a3378c9f6a4b471bdd1f49a456000b9a667f8f5"
-  integrity sha512-t7UM/WAr2Rfq7bfoLgAsyx6hGaToUwFceIXrEmQ/ODF+sUb5A26fcKlGD++YO7hASwqH5D3caBF1q9mTSVTtug==
+"@spriteful/utils@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@spriteful/utils/-/utils-1.2.4.tgz#2ceec5fb1ccac2d4253ba02da6ec676c205b9127"
+  integrity sha512-bN3CgHLcv9Dbvw3jTCsUQOKb4agl1y4sLky5NpyVSg93sQpMCbZ7DkBYJ1EcOgkEJaCNV/p79J84OFRjzru9HA==
   dependencies:
-    "@spriteful/lambda" "^1.3.4"
+    "@spriteful/lambda" "^1.3.5"
 
 "@webcomponents/shadycss@^1.5.2":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.0.tgz#8450465037370d4f5c32e801bb2554a7cf2f5037"
   integrity sha512-g8Xa+6RSEME4g/wLJW4YII0eq15rvXp76RxPAuv7hx+Bdoi7GzZJ/EoZOUfyIbqAsQbII1TcWD4/+Xhs5NcM1w==
+
+"@webcomponents/shadycss@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.9.1.tgz#d769fbadfa504f11b84caeef26701f89070ec49a"
+  integrity sha512-IaZOnWOKXHghqk/WfPNDRIgDBi3RsVPY2IFAw6tYiL9UBGvQRy5R6uC+Fk7qTZsReTJ0xh5MTT8yAcb3MUR4mQ==
