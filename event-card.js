@@ -43,9 +43,10 @@ class AsgEventCard extends SpritefulElement {
   async __eventItemChanged(eventItem) {
     if (!eventItem || !eventItem.images) { return; }
     await isOnScreen(this);
-    const {images}   = eventItem;
-    const [firstKey] = Object.keys(images);
-    this._imageUrl   = images[firstKey].url;
+    const {images} = eventItem;
+    const [first]  = Object.values(images).sort((a, b) => a.index - b.index);
+    const {optimized, url} = first;
+    this._imageUrl = optimized ? optimized : url; // backwards compat
   }
 
   // Listener in spriteful-app
