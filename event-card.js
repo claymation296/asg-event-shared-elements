@@ -44,7 +44,9 @@ class AsgEventCard extends SpritefulElement {
     if (!eventItem || !eventItem.images) { return; }
     await isOnScreen(this);
     const {images} = eventItem;
-    const [first]  = Object.values(images).sort((a, b) => a.index - b.index);
+    const [first]  = Object.values(images).sort((a, b) => 
+                       a.index - b.index);
+    if (!first) { return; } // undefined after delete in cms
     const {optimized, url} = first;
     this._imageUrl = optimized ? optimized : url; // backwards compat
   }
