@@ -51,7 +51,7 @@ class AsgEventCard extends SpritefulElement {
     this._imageUrl = optimized ? optimized : url; // backwards compat
   }
 
-  // Listener in spriteful-app
+  // Listener in spriteful-app-mixin
   async __openDetails(event) {
     try {
       await this.clicked();
@@ -60,7 +60,7 @@ class AsgEventCard extends SpritefulElement {
         this.eventItem, 
         {url: this._imageUrl}
       );
-      this.fire('asg-event-card-open-details', {eventItem});
+      this.fire('open-overlay', {eventItem, id: 'eventDetails'});
     }
     catch (error) { 
       if (error === 'click debounced') { return; }
