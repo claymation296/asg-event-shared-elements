@@ -60,7 +60,10 @@ class AsgEventDetails extends SpritefulElement {
   async __openRegistration() {
     try {
       await this.clicked();
-      this.fire('asg-event-details-open-registration', {eventItem: this._eventItem});
+      this.fire('open-overlay', {
+        eventItem: this._eventItem, 
+        id:       'registrationModal'
+      });
      }
     catch (error) { 
       if (error === 'click debounced') { return; }
@@ -69,8 +72,8 @@ class AsgEventDetails extends SpritefulElement {
   } 
 
 
-  async open(eventItem) {
-    this._eventItem = eventItem;
+  async open(detail) {
+    this._eventItem = detail.eventItem;
     await schedule();
     await this.$.overlay.open();
     this.$.fab.classList.add('fab-entry');

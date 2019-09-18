@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@polymer/app-layout@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@polymer/app-layout/-/app-layout-3.0.2.tgz#8a6f3c87b405635fd3547db82db8dbb6c51b6bf9"
-  integrity sha512-qKcQHj72uGxGoetjnNQ7pg4F6Da4U5jKBzZy0VRmDuZMUPDmtIqHaIgC5K6B4y+xUag0gkV9ce72Q3hNaK9y+g==
+"@polymer/app-layout@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@polymer/app-layout/-/app-layout-3.1.0.tgz#b146cd2ce202e079ac51059a4fcaef03f5b2f3c4"
+  integrity sha512-+jf5/TtUDj/la9Vi59ooGNjnTN8JTkyIUK8gxAms0N3MmyeqrmcNLlJKDVyE6IIGKz0WfFeGKqKtmtTLHrZIlg==
   dependencies:
     "@polymer/iron-flex-layout" "^3.0.0-pre.26"
     "@polymer/iron-media-query" "^3.0.0-pre.26"
@@ -188,7 +188,7 @@
   dependencies:
     "@webcomponents/shadycss" "^1.5.2"
 
-"@polymer/polymer@^3.2.0", "@polymer/polymer@^3.3.0":
+"@polymer/polymer@^3.3.0":
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.3.0.tgz#52a0665ac29654728e8f46e8ee178c02c49efdd0"
   integrity sha512-rij7suomS7DxdBamnwr/Xa0V5hpypf7I9oYKseF2FWz5Xh2a3wJNpVjgJy1adXVCxqIyPhghsrthnfCt7EblsQ==
@@ -203,33 +203,33 @@
     "@spriteful/lambda" "^1.3.3"
     "@spriteful/utils" "^1.1.6"
 
-"@spriteful/app-header-overlay@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@spriteful/app-header-overlay/-/app-header-overlay-1.0.1.tgz#e2f945a30f4f7e56718d3b3467aefe9b5d94bd09"
-  integrity sha512-uAPysi0hjIrqzx+UGJFEC8WgBIM0AVwNWEqKEF2kld5o548yZ7GVPLgxA2FuHdj7y83BgqXPgeJwJvoMJtNDfg==
+"@spriteful/app-header-overlay@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@spriteful/app-header-overlay/-/app-header-overlay-1.0.3.tgz#15b3462621f14acdcae18c949dfa4eb2e5b9b0a7"
+  integrity sha512-yAT0Busmee21eNQxGUVBLmA2iTklaXZkV4cLRmJd/W0eLRw2IN+SFfsqDZZugsVhw9wPWVe0YSJXA/N9PRQfuQ==
   dependencies:
-    "@polymer/app-layout" "^3.0.2"
+    "@polymer/app-layout" "^3.1.0"
     "@polymer/paper-icon-button" "^3.0.2"
-    "@polymer/polymer" "^3.2.0"
-    "@spriteful/app-icons" "^1.0.6"
+    "@polymer/polymer" "^3.3.0"
+    "@spriteful/app-icons" "^1.0.8"
     "@spriteful/overlay-mixin" "^1.0.0"
     "@spriteful/spriteful-element" "^1.0.4"
     "@spriteful/utils" "^1.2.4"
 
-"@spriteful/app-icons@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@spriteful/app-icons/-/app-icons-1.0.6.tgz#df494886a31f192c3e5e575ebe28b1fa0acc2ea6"
-  integrity sha512-S3+Luky6pAMjYXD+evOhzBXZxeyBW1LtwPdsvP12h/FCTWWRHatfuOSF0D8Lvv45LoKlZ6Nz0OzMTqqf1wT+WQ==
+"@spriteful/app-icons@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@spriteful/app-icons/-/app-icons-1.0.8.tgz#e690dee73df5df3a1fab7006da5c9d0173eb9c25"
+  integrity sha512-REZ9H/nM9HTagvhC2a8kGOB9Dx1EPbEdvWlVEq0KfxHSxb9qHBqiBSqm2JOnIiXZ7K6+FVeodswBqGNrrwjiCg==
   dependencies:
     "@polymer/iron-iconset-svg" "^3.0.1"
 
-"@spriteful/asg-icons@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@spriteful/asg-icons/-/asg-icons-1.0.14.tgz#4403e1dcde4f1aeacc62af9bdb7482cd407c42d8"
-  integrity sha512-VZRFHWVJPjKrGBjey8L8idIRTGc0bC0O++qIu7jLX8dO3fYRad/K33++LEy3KpjsNEHJ57x1/z8KWVt6D+I5IQ==
+"@spriteful/asg-icons@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@spriteful/asg-icons/-/asg-icons-1.0.15.tgz#89d398de3e78c4f368ca4a50f4f6030130d19816"
+  integrity sha512-NJZ+HSxorYwZmBTD7mCl2PiY7D2GfM0gCnAhWzfKFVRNJFqvrRx3AXwwjKOxhzsaPX69Nq3qSl1iY5LboFB5Ew==
   dependencies:
     "@polymer/iron-iconset-svg" "^3.0.1"
-    "@polymer/polymer" "^3.2.0"
+    "@polymer/polymer" "^3.3.0"
 
 "@spriteful/lambda@^1.3.3":
   version "1.3.3"
